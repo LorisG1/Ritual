@@ -19,6 +19,6 @@ foundryup
 cd ~/infernet-container-starter/projects/hello-world/contracts
 rm -rf lib/forge-std
 rm -rf lib/infernet-sdk
-forge install --no-commit foundry-rs/forge-std
-forge install --no-commit ritual-net/infernet-sdk
+forge install --no-git foundry-rs/forge-std
+forge install --no-git ritual-net/infernet-sdk
 cd ../../../
