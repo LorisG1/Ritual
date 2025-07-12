@@ -7,11 +7,11 @@ source <(wget -O- 'https://raw.githubusercontent.com/LorisG1/Ritual/refs/heads/m
 
 
 # Install Docker
-source <(wget -qO- 'https://raw.githubusercontent.com/CBzeek/Nodes/refs/heads/main/ritual/docker.sh')
+source <(wget -qO- 'https://raw.githubusercontent.com/LorisG1/Ritual/refs/heads/main/docker.sh')
 docker run hello-world
 
 # Install foundry
-source <(wget -qO- 'https://raw.githubusercontent.com/CBzeek/Nodes/refs/heads/main/ritual/foundry.sh')
+source <(wget -qO- 'https://raw.githubusercontent.com/LorisG1/Ritual/refs/heads/main/foundry.sh')
 
 echo ""
 echo -e "\e[1m\e[32m###########################################################################################"
@@ -25,7 +25,7 @@ sed -i 's/docker compose/docker-compose/' $HOME/infernet-container-starter/Makef
 
 
 # Configure node
-source <(wget -qO- 'https://raw.githubusercontent.com/CBzeek/Nodes/refs/heads/main/ritual/configure-node.sh')
+source <(wget -qO- 'https://raw.githubusercontent.com/LorisG1/Ritual/refs/heads/main/configure-node.sh')
 
 
 # Deploy container
