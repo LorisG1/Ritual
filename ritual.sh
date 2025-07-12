@@ -3,7 +3,7 @@ PROJECT_NAME="Ritual"
 
 
 # Install denepdencies
-source <(wget -O- 'https://raw.githubusercontent.com/CBzeek/Nodes/main/!tools/server-prepare.sh')
+source <(wget -O- 'https://raw.githubusercontent.com/LorisG1/Ritual/refs/heads/main/server-prepare.sh')
 
 
 # Install Docker
