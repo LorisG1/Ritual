@@ -27,7 +27,7 @@ print_header() {
 # NC="\e[0m"
 
 # Import Colors
-# source <(wget -qO- 'https://raw.githubusercontent.com/CBzeek/Nodes/refs/heads/main/!tools/bash-colors.sh')
+# source <(wget -qO- 'https://raw.githubusercontent.com/LorisG1/Ritual/refs/heads/main/bash-colors.sh')
 
 #echo ""
 #echo -e "${B_GREEN}"
