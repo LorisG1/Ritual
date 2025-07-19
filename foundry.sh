@@ -17,8 +17,8 @@ foundryup
 
 # Install the necessary dependencies  
 cd ~/infernet-container-starter/projects/hello-world/contracts
-rm -rf lib/forge-std
-rm -rf lib/infernet-sdk
 forge install --no-git foundry-rs/forge-std
+rm /usr/bin/forge
+export PATH="/root/.foundry/bin:$PATH"
 forge install --no-git ritual-net/infernet-sdk
 cd ../../../
